@@ -5,7 +5,7 @@ When & Where
 ------------
 * 3:30p-4:50p, Mon/Wed, Winter quarter 2014-2015
 * Physics-Astronomy Tower, C341 (Astro conference room)
-* Hangouts Room: http://goo.gl/9oTASp
+* Hangouts Room: http://ls.st/597
 
 Course Description
 ------------------
