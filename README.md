@@ -18,9 +18,8 @@ The goal of this course is to prepare you for research with large survey data, t
 * Introduce tools and techniques for working with large data sets (incl. access, analysis, and visualization)
 * Introduce and work hands-on with existing data sets (including SDSS, WISE, Kepler and others)
 * Learn about major upcoming surveys (including PanSTARRS, Gaia, and LSST)
-* While focused on astronomical surveys, the course may be suitable advanced undergraduates and non-majors interested in learning about working with large scientific data sets.
 
-While focused on astronomical surveys, the course may be suitable advanced undergraduates and non-majors interested in learning about working with large scientific data sets.
+While focused on astronomical surveys, the course may be suitable for advanced undergraduates and non-majors interested in learning about working with large scientific data sets.
 
 Syllabus
 --------
