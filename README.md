@@ -31,23 +31,23 @@ January:
  * 14-Jan Wednesday: Basic software tools
  * ~~19-Jan Monday: No class (MLK Day)~~
  * 21-Jan Wednesday: Databases		
- * 26-Jan Monday: Visualization and Analysis Tools		
- * 28-Jan Wednesday: SDSS
+ * 26-Jan Monday: SQL Joins, Pandas, and LSD
+ * 28-Jan Wednesday: Visualization (Data Science Seminar)
 
 February:
- * 2-Feb	Monday: WISE
- * 4-Feb	Wednesday: Kepler
- * 9-Feb	Monday: FIRST
- * 11-Feb Wednesday: PHAT (**Homework #1 Due**)
+ * 2-Feb	Monday: Large Survey Database
+ * 4-Feb	Wednesday: SDSS: the Sloan Digital Sky Survey
+ * 9-Feb	Monday: WISE: the Wide-field Infrared Survey Explorer
+ * 11-Feb Wednesday: PHAT: The Panchromatic Hubble Andromeda Treasury (presented by Ben Williams)
  * ~~16-Feb Monday: No class (Presidents' Day)~~
- * 18-Feb Wednesday: Archives and the Virtual Observatory
- * 23-Feb Monday: PanSTARRS
- * 25-Feb Wednesday: Gaia (**Homework #2 Due**)
+ * 18-Feb Wednesday: Survey Seminar Presentations #1 (**Homework #1 Due**)
+ * 23-Feb Monday: Survey Seminar Presentations #2
+ * 25-Feb Wednesday: Survey Seminar Presentations #3
 
 March:
- * 2-Mar	Monday: LSST: Science		
- * 4-Mar Wednesday: LSST: Technology		
- * 9-Mar Monday: Scaling up to PFLOPS and PBs		
+ * 2-Mar Monday: Upcoming Surveys: GAIA (presented by Zeljko Ivezic)
+ * 4-Mar Wednesday: Upcoming Surveys: Pan-STARRS PS1 and DES
+ * 9-Mar Monday: Large Synoptic Survey Telescope (**Homework #2 Due**)
  * 11-Mar Wednesday: Hack Day		
  * 20-Mar Thursday: **Class project due**
 
