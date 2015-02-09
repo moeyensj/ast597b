@@ -45,7 +45,8 @@ February:
  * 25-Feb Wednesday: Survey Seminar Presentations #3
 
 March:
- * 2-Mar Monday: Upcoming Surveys: GAIA (presented by Zeljko Ivezic)
+ * 2-Mar Monday: Survey Seminar Presentations #4
+ * 3-Mar Tuesday: Upcoming Surveys: GAIA (presented by Zeljko Ivezic)
  * 4-Mar Wednesday: Upcoming Surveys: Pan-STARRS PS1 and DES
  * 9-Mar Monday: Large Synoptic Survey Telescope (**Homework #2 Due**)
  * 11-Mar Wednesday: Hack Day		
