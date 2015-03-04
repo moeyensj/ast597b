@@ -2,7 +2,7 @@
 filters: {complevel: 5, complib: blosc}
 schema:
   common:
-    primary_keys: id
+    primary_key: id
     spatial_keys: [ra, dec]
     columns:
     - [run, i4]
@@ -13,36 +13,38 @@ schema:
     - [objc_type, i4]
     - [objc_flags, i4]
     - [objc_flags2, i4]
-    - [zhedflag, i4]
+    - [zhedflag, i2]
     - [objc_rowc, f4]
     - [rowvdeg, f4]
     - [rowvdegerr, f4]
+    - [rowc, 5f4]
     - [colvdeg, f4]
     - [colvdegerr, f4]
-    - [colc, f5]
-    - [flags, i5]
-    - [flags2, i5]
-    - [ra, f4]
-    - [dec, f4]
+    - [colc, 5f4]
+    - [flags, 5i4]
+    - [flags2, 5i4]
+    - [ra, f8]
+    - [dec, f8]
   photometric:
     columns:
-    - [skyflux, f5]
-    - [psfflux, f5]
-    - [psfflux_ivar, f5]
-    - [modelflux, f5]
-    - [modelflux_ivar, f5]
-    - [extinciton, f5]
-    - [aperflux6, f4]
+    - [skyflux, 5f4]
+    - [psfflux, 5f4]
+    - [psfflux_ivar, 5f4]
+    - [modelflux, 5f4]
+    - [modelflux_ivar, 5f4]
+    - [extinction, 5f4]
+    - [aperflux6, 5f4]
   image:
     columns:
-    - [psp_status, i5]
-    - [psf_fwhm, f5]
+    - [psp_status, 5i4]
+    - [psf_fwhm, 5f4]
     - [resolve_status, i4]
+    - [thing_id, i4]
     - [ifield, i4]
     - [balkan_id, i4]
     - [ndetect, i4]
-    - [calib_status, i5]
-    - [nmgypercount, f5]
+    - [calib_status, 5i4]
+    - [nmgypercount, 5f4]
   2mass:
     columns:
     - [tmass_j, f4]
@@ -58,5 +60,3 @@ schema:
     - [tmass_gal_contam, b1]
     - [tmass_mp_flg, b1]
     - [tmass_jdate, f4]
-    #- [tmass_matchdist, f4]
-    #- [tmass_nmatch, i4]
