@@ -1,0 +1,77 @@
+filters: {complevel: 5, complib: blosc}
+schema:
+  common:
+    primary_key: id
+    spatial_keys: [ra, dec]
+    columns:
+    - [ra, f8] 
+    - [dec, f8] 
+    - [run, u2] 
+    - [rerun, S3] 
+    - [camcol, u1] 
+    - [field, i2] 
+    - [id, u8] 
+    - [objc_type, i4] 
+    - [flags, 5i4] 
+    - [flags2, 5i4] 
+    - [objc_flags, i4] 
+    - [objc_flags2, i4] 
+  extra:
+    columns:
+    - [zhedflag, i2] 
+    - [objc_rowc, f4] 
+    - [rowvdeg, f4] 
+    - [rowvdegerr, f4] 
+    - [rowc, 5f4] 
+    - [colvdeg, f4] 
+    - [colvdegerr, f4] 
+    - [colc, 5f4] 
+    - [m_rr_cc, 5f4]
+    - [m_rr_cc_psf, 5f4]
+  photometry:
+    columns:
+    - [skyflux, 5f4] 
+    - [psfflux, 5f4] 
+    - [psfflux_ivar, 5f4] 
+    - [modelflux, 5f4] 
+    - [modelflux_ivar, 5f4] 
+    - [extinction, 5f4] 
+    - [aperflux6, 5f4] 
+  calib:
+    columns:
+    - [psp_status, 5i4] 
+    - [psf_fwhm, 5f4] 
+    - [resolve_status, i4] 
+    - [thing_id, i4] 
+    - [ifield, i4] 
+    - [balkan_id, i4] 
+    - [ndetect, i4] 
+    - [calib_status, 5i4] 
+    - [nmgypercount, 5f4] 
+  tmass:
+    columns:
+    - [tmass_j, f4] 
+    - [tmass_j_ivar, f4] 
+    - [tmass_h, f4] 
+    - [tmass_h_ivar, f4] 
+    - [tmass_k, f4] 
+    - [tmass_k_ivar, f4] 
+    - [tmass_ph_qual, S3] 
+    - [tmass_rd_flg, i2] 
+    - [tmass_bl_flg, i2] 
+    - [tmass_cc_flg, S3] 
+    - [tmass_gal_contam, u1] 
+    - [tmass_mp_flg, u1] 
+    - [tmass_hemis, S1] 
+    - [tmass_jdate, f8] 
+  astrometry:
+    columns:
+    - [pm_match, i4] 
+    - [pmra, f4] 
+    - [pmdec, f4] 
+    - [pmraerr, f4] 
+    - [pmdecerr, f4] 
+    - [pm_sigra, f4] 
+    - [pm_sigdec, f4] 
+    - [pm_nfit, i4] 
+    - [pm_dist22, f4] 
